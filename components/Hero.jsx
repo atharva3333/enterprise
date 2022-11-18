@@ -10,11 +10,11 @@ const Hero = () => {
                 TO <span className='text-yellow'>FASTER </span> WEB </h1>
             <p className='text-white sm:text-2xl text-1xl mt-12'>Website development has shifted to NextJS and headless CMS CMS for providing faster, secure, scalable and SEO optimized web.
             </p>
-            <button className='bg-yellow rounded-full p-4 mt-12 px-8 shadow-white shadow-lg'>Get a Quote</button>
+            <button className='bg-yellow rounded-full p-4 mt-12 px-10 shadow-[0_8px_0_0_rgba(255,255,255,1)] font-medium'>Get a Quote</button>
         </div>
         </div>
         <div className='max-w-[1100px] mx-auto mt-24'>
-         <Image className=' bg-white sm:p-16 p-5 sm:rounded-3xl rounded-xl w-full' src='/images/hero-img.png' width='1043' height='444'/>
+         <Image className='bg-white sm:p-16 p-5 sm:rounded-3xl rounded-xl w-full relative -bottom-20' src='/images/hero-img.png' width='1043' height='444'/>
         </div>
         </div>
     )

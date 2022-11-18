@@ -4,6 +4,7 @@ import Image from 'next/image'
 const Ourwork = () => {
     return (
         <div className='max-w-[1240px] mx-auto my-12'>
+        <div className='sm:mx-0 mx-2'>
             <h1 className='text-yellow my-12 text-3xl' >What do we do exactly?</h1>
             <div className='flex'>
                 <div className='basis-4/5'>
@@ -21,7 +22,7 @@ const Ourwork = () => {
                 </div>
                 <div className= ' whitespace-normal inline-block mx-4  border-2 border-white h-[487px] w-[515px] rounded-lg'>
                     <Image className='mx-auto' src='/images/illus-1.png' width='146' height='183' />
-                    <h1 className='text-yellow text-5xl mx-auto font-bold mt-20'>Headless wordPress development</h1>
+                    <h1 className='text-yellow text-5xl mx-auto font-bold mt-20'>Migration to headless wordPress</h1>
                     <p className='text-white mx-auto mt-4'>Native mobile apps are developed for specific mobile OS such as iOS or Android and users can access them from dedicated app stores.
 
                     </p>
@@ -34,7 +35,7 @@ const Ourwork = () => {
                     </p>
                 </div>
             </div>
-
+            </div>
         </div>
     )
 }

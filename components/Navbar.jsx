@@ -10,7 +10,7 @@ const Navbar = () => {
     }
   return (
     <div>
-        <div className='flex max-w-[1240px] m-auto justify-between items-center p-4 text-white'>
+        <div className='flex max-w-[1240px] mx-auto justify-between items-center p-4 text-white'>
         <div className='flex'>
         <Image src='/images/brand.png' width='36' height='35' alt='brand'/>
             <h1 className='text-yellow text-3xl mx-4'>enterprise</h1>
