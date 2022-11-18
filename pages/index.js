@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Hero from '../components/Hero'
+import History from '../components/History'
 import Navbar from '../components/Navbar'
 import Ourwork from '../components/Ourwork'
 import Testimonials from '../components/Testimonials'
@@ -18,6 +19,7 @@ export default function Home() {
       <Hero/>
       <Testimonials/>
       <Ourwork/>
+      <History/>
       
     </div>
   )
