@@ -14,7 +14,9 @@ module.exports = {
         400: '#9ca3af'
       }
     },
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [],
 }

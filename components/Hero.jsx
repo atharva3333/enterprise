@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
         </div>
         <div className='max-w-[1100px] mx-auto mt-24'>
-         <Image className='bg-white sm:p-16 p-5 sm:rounded-3xl rounded-xl w-full relative -bottom-20' src='/images/hero-img.png' width='1043' height='444'/>
+         <Image className=' w-full' src='/images/main-img.png' width='1043' height='444'/>
         </div>
         </div>
     )

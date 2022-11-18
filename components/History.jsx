@@ -6,7 +6,8 @@ const History = () => {
     return (
         <div className='bg-white w-full pt-20'>
             <div className='max-w-[1240px] mx-auto'>
-                <h1 className='sm:text-6xl text-5xl text-center font-bold my-20 uppercase'>Traditional <span className='text-purple'>technlogies</span> weren’t built for the way web runs today.
+                <h1 className='sm:text-6xl text-5xl text-center font-bold my-20 uppercase'>Traditional 
+                <span className='text-purple stretch'> technlogies</span> weren’t built for the way web runs today.
                 </h1>
                 
             </div>
@@ -15,7 +16,7 @@ const History = () => {
             <div className='max-w-[1240px] mx-auto'>
                 <h1 className='sm:text-7xl text-5xl font-bold mt-20 uppercase'>We build headless</h1>
                 <h1 className='sm:text-7xl text-5xl font-bold mt-3 mb-20 uppercase'>
-                    <span className='text-purple stretch'> solutions</span> for all the niches
+                    <span className='text-purple'> s<span className='stretch'>o</span>luti<span className='stretch'>o</span>ns</span> for all the niches
                 </h1>
                 
             </div>
